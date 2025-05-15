@@ -24,15 +24,9 @@ Ce projet de génération de données pour les zones géographiques, permettant 
 - Un broker MQTT (par exemple, [Mosquitto](https://mosquitto.org/))
 
 ## Installation
-
-1. Clonez le dépôt :
-   ```bash
-   git clone <url-du-repo>
-   cd <nom-du-repo>
-    ```
    
-2. Installez les dépendances :
-3. ```bash
+ Installez les dépendances :  
+ ```bash
    yarn install
    ```
    
@@ -40,6 +34,7 @@ Lancez le listener:
 ```bash
 tsx listener.ts
 ```
+
 Lancez le sender:
 ```bash
 tsx sender.ts
